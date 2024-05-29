@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;/*1rem = 10px*/
+}
+body,h1,h2,ul{
+    margin:0;
+    padding:0;
+    }
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'times', sans-serif;
+}
+.background{
+    background-color: #25373D;
+}
+.kapsayici{
+    width: 960px;
+    margin:0 auto;
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+}
+
+.upper .logo{
+    text-align: center;
+    color:beige;
+}
+.upper .logo h1{
+    font-size:4rem;
+    letter-spacing: .5rem;
+}
+.upper .logo h1::first-letter{
+    color:#FCB941;
+}
+
+.upper .logo h1:hover::first-letter{
+    background-color: #FCB941;
+    color:#25373D;
+}
+p {
+    color: rgb(7, 27, 52);
+}
+h2{color:#FCB941;}
+
+.middle {
+    background-color: beige;
+}    
+
+.upper .logo h2{
+    font-size:3rem;
+}
+.upper .menu ul{
+    display: flex;
+}
+.upper .menu ul li{
+    margin:0 1rem;
+}
+
+.upper .menu ul a{
+    color:beige;
+    text-decoration: none;
+    font-size:1.8rem;
+    padding:0 2rem;
+}
+.upper .menu ul a:hover{
+    color:#FCB941;
+}
+
+.middle .part1{
+    margin-top:20px;
+    border:10px solid #25373D;
+    padding:20px;
+}
+
+.middle .part1 img{
+    display: block;
+    width: 100%;
+}
+
+.middle .part2{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.middle .part2 .box{
+    flex-basis: 290px;
+}
+
+.middle .part2 .box h2{
+    font-size: 2rem;
+}
+
+.middle .part2 .box p{
+    font-size: 1.6rem;
+}
+.middle .part3{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.middle .part3 h1{
+    font-size:2.5rem;
+}
+
+.middle .part3 p{
+    font-size:1.6rem;
+}
+
+.bottom{
+    margin-top:20px;
+    padding:20px 0;
+    display: flex;
+    gap:20px;
+}
+.bottom .link{
+    flex-grow: 1;
+}
+
+.bottom .link ul li{
+    border-bottom:dotted 1px #FCB941;
+    margin:5px 0;
+}
+
+.bottom .link a{
+    font-size:1.4rem;
+    text-decoration: none;
+    color:#FCB941;
+    padding-bottom:5px ;
+    display:block
+}
+.line{
+    border-top:dotted 1px #FCB941;
+    margin:20px 0;
+}
+
+.border-bottom-10{
+    border-bottom:10px solid #FCB941;
+}
